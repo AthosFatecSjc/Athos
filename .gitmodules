@@ -1,0 +1,6 @@
+[submodule "docs"]
+	path = docs
+	url = git@github.com:AthosFatecSjc/docs.git
+[submodule "server"]
+	path = server
+	url = git@github.com:AthosFatecSjc/server.git
