@@ -1,6 +1,8 @@
 [submodule "docs"]
 	path = docs
 	url = git@github.com:AthosFatecSjc/docs.git
+	branch = release
 [submodule "server"]
 	path = server
 	url = git@github.com:AthosFatecSjc/server.git
+	branch = release
