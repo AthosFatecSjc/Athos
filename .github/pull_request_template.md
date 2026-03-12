@@ -26,3 +26,4 @@ Explique brevemente o que foi feito neste PR.
 ## Checklist
 - [ ] Testes unitários
 - [ ] DoD
+- [ ] Funcionalidade integrada com a versão atualizada da branch develop
