@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="#" width="300" height="300" alt="Athos-logo" />
+<img src="image/logo.png" width="300" height="300" alt="Athos logo" />
 
 # ATHOS
 ### Database 6° Semester
@@ -8,11 +8,11 @@
 </div>
 
 <p align="center">
-  <a href ="#busts_in_silhouette-members">  Members </a> •
+  <a href ="#busts_in_silhouette-members">  Team </a> •
   <a href ="#pushpin-hiathos-project">  HiATHOS Project </a> •
   <a href="#white_check_mark-requirements">  Requirements </a> •
   <a href="#card_file_box-product-backlog"> Product Backlog </a> •
-  <a href="#calendar-sprints-backlog"> Sprints Backlog </a> 
+  <a href="#calendar-sprints-backlog"> Sprints Backlog </a>
   <a href="#hourglass_flowing_sand-roadmap"> Roadmap </a>•
   <a href="#computer-tech-stack"> Tech Stack </a> •
   <a href="#gear-branching-and-commit-standard-strategies"> Branching and Commit Standard Strategies </a> • 
@@ -21,9 +21,11 @@
 
 </p>
 
-<h1 align="center" id="busts_in_silhouette-members">Members</h1>
+<h1 align="center" id="busts_in_silhouette-members">Team</h1>
 
-<img width="1584" height="396" alt="Team-members" src="#" />
+<div align="center">
+  <img width="1100" alt="Team members" src="image/team.png" />
+</div>
 
 <br/>
 <br/>
@@ -97,7 +99,7 @@ Its main features include:
 <li>Automated collection of regulatory data from ANEEL;</li>
 <li>Analysis of continuity indicators such as DEC and FEC;</li>
 <li>visualization of comparative analytical data; </li>
-<li>Uuser management with access control;</li>
+<li>User management with access control;</li>
 <li>system logging for technical monitoring and traceability. </li>
 </ul>
 </p>
@@ -404,5 +406,5 @@ Example:
 <p align="center">
 © 2026 — HiATHOS - ATHOS / Tecsys</p>
 <p align="center">
-Developed under educational contex of FATEC São José dos Campos - Professor Jessen Vidal.
+Developed under the educational context of FATEC São José dos Campos - Professor Jessen Vidal.
 </p>
