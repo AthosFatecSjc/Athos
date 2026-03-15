@@ -75,15 +75,20 @@ Without a centralized analytical solution, these evaluations depend on manual ef
 
 <p align="justify">
 HiATHOS is an analytical web platform developed to centralize, organize, and process public ANEEL data, transforming regulatory information into structured indicators for electric power distribution analysis.
+</p>
+
+<p align="justify">
 The platform automates the collection of public datasets, stores them in a structured database, and enables users to analyze network continuity indicators such as DEC and FEC across different utilities, regions, and electrical groupings.
 </p>
 
 <p align="justify">
 Through this approach, HiATHOS helps technical and commercial teams:
-access consolidated regulatory data in a single environment;
-compare operational performance across different network segments;
-identify regions approaching or exceeding regulatory limits;
-support decision-making for monitoring, prioritization, and future analytical expansion.
+<ul>
+<li>access consolidated regulatory data in a single environment;</li>
+<li>compare operational performance across different network segments;</li>
+<li>identify regions approaching or exceeding regulatory limits;</li>
+<li>support decision-making for monitoring, prioritization, and future analytical expansion.</li>
+</ul>
 </p>
 
 <p align="justify">
