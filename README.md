@@ -45,53 +45,60 @@
 
 <br/>
 
-<h1 id="pushpin-hiathos-project">📌 HiATHOS</h1>
+<h1 id="pushpin-hiathos-project">📌 HiAthos</h1>
 Project executed in collaboration with <a href="https://www.tecsysbrasil.com.br/">TECSYS</a>.
 
 ## **Project Challenge**
 <p align="justify">
-  Electric power distribution companies operate in a highly regulated environment <b>where service quality indicators directly impact operational performance, regulatory compliance, and financial results</b>. However, critical information about network reliability and service interruptions is often dispersed across multiple public data sources, <b>making consistent analysis complex and time-consuming</b>.
+Electric power distribution companies operate in a highly regulated environment where service quality indicators directly affect regulatory compliance, operational efficiency, and financial performance.
 </p>
 
 <p align="justify">
-  Technical and commercial teams face <b>difficulties in obtaining a clear and comparative view of network performance across different regions, utilities, and electrical groupings</b>. The lack of consolidated analytical visibility limits the ability to identify areas with higher operational risk, prioritize infrastructure investments, and plan strategic actions to improve service continuity.
+However, critical information about network reliability, service interruptions, and technical losses is often dispersed across multiple public ANEEL sources, making analysis fragmented, slow, and difficult to standardize.
 </p>
 
 <p align="justify">
-  In addition, understanding long-term trends in regulatory indicators such as <b>interruption duration and frequency is essential for anticipating potential penalties, improving customer satisfaction, and supporting data-driven decision-making</b>. Without structured analytical support, these evaluations tend to rely on manual processes and fragmented information.
-</p>
-
-<p align="justify">
-  This context creates a growing need for more <b>reliable access to strategic insights that can support operational efficiency, regulatory alignment, and the identification of opportunities for innovation within electrical distribution networks</b>.
-</p>
-
-## **Solution — HiATHOS**
-
-<p align="justify">
-<b>HiATHOS</b> is an analytical web platform developed to centralize and organize data from the electric power sector, transforming regulatory information into strategic indicators for the analysis of energy distribution networks.
-</p>
-
-<p align="justify">
-The platform performs <b>automated data collection from public ANEEL sources</b>, consolidating this information into a structured database that enables comparative analysis across different regions of the electrical network.
-</p>
-
-<p align="justify">
-The application allows users to visualize operational network indicators, identify regions approaching or exceeding regulatory limits, and support decision-making in prioritizing areas that may benefit from network monitoring solutions.
-</p>
-
-<p align="justify">
-Among the platform’s main features are:
+As a result, technical and commercial teams struggle to:
 <ul>
-<li>Automated collection of regulatory data from ANEEL;</li>
-<li>Analysis of electrical network continuity indicators (DEC </li>and FEC);
-<li>Visualization of analytical comparative tables across </li>different network regions;
-<li>User management with platform access control;</li>
-<li>System logging for technical monitoring and basic </li>traceability.
+<li>obtain a clear comparative view of network performance across utilities, regions, and electrical groupings;</li>
+<li>identify areas with higher operational risk;</li>
+<li>prioritize infrastructure investments and corrective actions;</li>
+<li>monitor long-term trends in DEC and FEC indicators efficiently.</li>
 </ul>
 </p>
 
 <p align="justify">
-HiATHOS was designed with an architecture that supports future platform evolution, including the implementation of <b>analytical intelligence modules and electrical network behavior forecasting</b>, expanding the potential for generating strategic insights for the energy sector.
+Without a centralized analytical solution, these evaluations depend on manual effort, disconnected datasets, and limited visibility, reducing decision-making quality and making regulatory analysis more time-consuming.
+</p>
+
+## **Solution — HiAthos**
+
+<p align="justify">
+HiATHOS is an analytical web platform developed to centralize, organize, and process public ANEEL data, transforming regulatory information into structured indicators for electric power distribution analysis.
+The platform automates the collection of public datasets, stores them in a structured database, and enables users to analyze network continuity indicators such as DEC and FEC across different utilities, regions, and electrical groupings.
+</p>
+
+<p align="justify">
+Through this approach, HiATHOS helps technical and commercial teams:
+access consolidated regulatory data in a single environment;
+compare operational performance across different network segments;
+identify regions approaching or exceeding regulatory limits;
+support decision-making for monitoring, prioritization, and future analytical expansion.
+</p>
+
+<p align="justify">
+Its main features include:
+<ul>
+<li>Automated collection of regulatory data from ANEEL;</li>
+<li>Analysis of continuity indicators such as DEC and FEC;</li>
+<li>visualization of comparative analytical data; </li>
+<li>Uuser management with access control;</li>
+<li>system logging for technical monitoring and traceability. </li>
+</ul>
+</p>
+
+<p align="justify">
+HiATHOS was designed with an architecture that supports future evolution, including analytical intelligence modules and predictive capabilities for electrical network behavior.
 </p>
 
 <br>
