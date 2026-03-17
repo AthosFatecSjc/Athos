@@ -12,7 +12,7 @@
   <a href ="#pushpin-hiathos-project">  HiATHOS Project </a> •
   <a href="#white_check_mark-requirements">  Requirements </a> •
   <a href="#card_file_box-product-backlog"> Product Backlog </a> •
-  <a href="#calendar-sprints-backlog"> Sprints Backlog </a>
+  <a href="#calendar-sprints-backlog"> Sprints Backlog </a> •
   <a href="#hourglass_flowing_sand-roadmap"> Roadmap </a>•
   <a href="#computer-tech-stack"> Tech Stack </a> •
   <a href="#gear-branching-and-commit-standard-strategies"> Branching and Commit Standard Strategies </a> • 
@@ -112,19 +112,35 @@ HiATHOS was designed with an architecture that supports future evolution, includ
 
 <h1 id="white_check_mark-requirements">✅ Requirements</h1>
 
-Title | Type | Stakeholder |
-------|------|-------------|
-DBMS | NFR | FATEC |
-MongoDB | NFR | FATEC |
-LGPD | NFR | FATEC |
-Machine learning | NFR | FATEC |
-Installation manual | NFR | TECSYS |
-User manual | NFR | TECSYS |
-API documentation | NFR | TECSYS |
-DB modeling | NFR | TECSYS |
-Data anonymization in compliance with LGPD | NFR | TECSYS |
-Access and data manipulation logging | NFR | TECSYS |
-Automated tests | NFR | TECSYS |
+
+## Functional Requirements
+
+| ID | Requirement | Description |
+|---|---|---|
+| RF01 | User Registration, Authentication and Access Control | The system must allow new users to self-register with full name, email, password, and optional phone number. Every new user must be created with `PENDING` status. Only users with `ACTIVE` status may access the platform. The system must also support secure authentication, mandatory password change on the first login of the initial administrator, and a controlled email-change flow with identity validation. |
+| RF02 | Administrative User Management | The system must allow administrators to view, search, filter, and manage registered users, including approval, rejection with mandatory justification, profile updates when necessary, anonymization of personal data, and granting or removing administrative privileges. |
+| RF03 | Terms, Acknowledgements and Consent Management | The system must display the Terms of Use, Privacy Notice, and optional marketing consent during user registration, recording acceptance, acknowledgement, and optional consent separately. The system must keep version history of terms, maintain historical records, and allow optional consent revocation without affecting access to core platform features. |
+| RF04 | Data Subject Rights and Privacy Requests | The system must support handling data subject requests related to access, correction, anonymization, or deletion when applicable, and must keep a minimal record of such requests as well as a basic inventory of personal data processing operations related to the user module. |
+| RF05 | System Logging and Log Access | The system must record authentication logs, user-management logs, and relevant application execution events, including critical administrative operations. These records must contain the minimum information required for auditability and traceability, with access restricted to authorized administrators and logical separation from the main application database. |
+| RF06 | Automatic and Manual ANEEL Data Collection | The system must perform periodic automatic collection of public ANEEL data and also allow manual execution by authorized administrators in order to obtain regulatory data for future analysis, indicators, and rankings. |
+| RF07 | Validation, Processing and Storage of Collected Data | The system must validate the structure and format of collected files, process and normalize accepted data, reject or flag data incompatible with the expected model, store processed records with source and batch traceability, and prevent improper duplication during reprocessing or recurring imports. |
+| RF08 | Historical Preservation and Data Consistency | The system must preserve the history of valid data, term versions, acceptance records, and relevant events, ensuring consistency between the active database, logs, anonymization records, and backup restoration processes. |
+
+## Non-Functional Requirements
+
+| ID | Requirement | Description |
+|---|---|---|
+| RNF01 | Security and Credential Protection | The system must store passwords only using secure cryptographic hashing. The initial administrator credential must not be stored in source code, versioned scripts, or public documentation, and must be provisioned through a secure mechanism. |
+| RNF02 | Access Control and Confidentiality | The system must restrict access to features, user data, and logs according to user role and need-to-know rules, ensuring that only authorized administrators can perform sensitive operations or access restricted records. |
+| RNF03 | LGPD Compliance and Data Minimization | The system must comply with the principles of purpose limitation, necessity, adequacy, security, transparency, and accountability, collecting and processing only the data strictly necessary for platform operation. |
+| RNF04 | Integrity and Traceability | The system must ensure traceability of critical actions and integrity of user records, terms, consents, anonymization actions, data collection executions, and logs, without improper overwriting of historical records. |
+| RNF05 | Data Protection in Logs | The system must not record passwords, tokens, secrets, session cookies, or full payloads containing unnecessary personal data in logs, and should use pseudonymization or masking whenever possible. |
+| RNF06 | Data Retention and Disposal | The system must adopt a retention policy compatible with the purpose of each type of data, including an approximate retention period of 6 months for logs, 90 days for backups, and controlled retention of acceptance and consent records according to the project policy. |
+| RNF07 | Backup and Anonymization Consistency | Backup restoration must not automatically reactivate data that has already been anonymized or deleted from the active database. The system must provide a technical mechanism to reapply anonymization when necessary. |
+| RNF08 | Operational Simplicity and Maintainability | The solution must prioritize implementation simplicity, low operational cost, ease of maintenance, and logical separation between operational data, logs, and collected regulatory data. |
+| RNF09 | Basic Availability and Scalability | The system must support the expected initial volume of users, logs, and periodic data collection jobs, while allowing future growth without compromising essential MVP functionality. |
+| RNF10 | Minimum Usability | The interfaces for registration, user management, log consultation, and administrative operations must be clear, objective, and appropriate for the expected use within the initial project scope. |
+
 
 <br>
 
@@ -376,17 +392,6 @@ Example:
 </details>
 
 <br>
-
-<h1 id="gear-quality-gate"> 📚 Quality Gate </h1>
-   
-<div align="center">
-  <p>We use SonarQube in the project to automatically analyze the code, identify issues, and keep everything cleaner, safer, and more standardized, helping to avoid rework and making maintenance easier.</p>
-  
-  <p>Access the full documentation at:</p>
-  <a href="#">
-<img src="https://img.shields.io/badge/SonarCloud-181717?style=for-the-badge&logo=sonarqube" alt="SonarCloud">
-  </a>
-</div>
 
 <h1 id="gear-documentation"> 📚 Documentation </h1>
    
