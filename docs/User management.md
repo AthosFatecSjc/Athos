@@ -463,5 +463,5 @@ This inventory must contain at least:
 
 | Item | Link |
 |---|---|
-| Prototype | Done |
-| Epic (Jira) | [ATS-7](https://athos-software.atlassian.net/browse/ATS-7) |
+| Prototype | [Figma](https://www.figma.com/design/lH1iaR2cBfTC9PUxxo93dX/Sem-t%C3%ADtulo?node-id=0-1&m=dev) |
+| Epic (Jira) | [ATS-7: User management](https://athos-software.atlassian.net/browse/ATS-7) |

@@ -112,6 +112,8 @@ HiATHOS was designed with an architecture that supports future evolution, includ
 
 <h1 id="white_check_mark-requirements">✅ Requirements</h1>
 
+<details>
+  <summary><b>Functional Requirements</b></summary>
 
 ## Functional Requirements
 
@@ -127,6 +129,11 @@ HiATHOS was designed with an architecture that supports future evolution, includ
 | RF08 | Historical Preservation and Data Consistency | The system must preserve the history of valid data, term versions, acceptance records, and relevant events, ensuring consistency between the active database, logs, anonymization records, and backup restoration processes. |
 | RF09 | Analytical Visualization and Operational Ranking | The system must allow users to view a ranked analytical table based on previously collected and stored data from ANEEL public datasets, initially displaying DEC, DEC limit, FEC, and FEC limit indicators. It must support filtering by year, distributor, state, electrical group, and substation, as well as sorting by indicators and identifying regions near or above regulatory limits. The system must also support visual or logical classification of operational units based on the comparison between measured indicators and regulatory thresholds, and preserve structural compatibility for future inclusion of complementary indicators such as technical and non-technical losses without compromising the main continuity-focused visualization. |
 | RF10 | Geographical Visualization of Operational Indicators | The system must allow geographical visualization of electrical network operational indicators based on previously collected and stored data from ANEEL public datasets and the available geographic base, initially presenting DEC and FEC indicators in heatmap format. It must support filtering by year, month when available, distributor, state, electrical group, and substation, as well as selection of the indicator shown on the map. The system must preserve structural compatibility for future inclusion of technical and non-technical losses in the geographic view, as well as future evolution toward network-segment and electrical-circuit granularity. |
+
+</details>
+
+<details>
+  <summary><b>Non-Functional Requirements</b></summary>
 
 ## Non-Functional Requirements
 
@@ -148,6 +155,8 @@ HiATHOS was designed with an architecture that supports future evolution, includ
 | RNF14 | Minimum Performance for Geographical Visualization | The heatmap functionality must respond adequately to the initial data volume and filter set expected for the MVP. |
 | RNF15 | Visual Clarity and Interpretability | The heatmap interface must provide a clear legend, an understandable visual scale, and clear distinction between different levels of criticality. |
 | RNF16 | Separation Between Geographic Analytical Data and Personal Data | The heatmap functionality must operate exclusively on public, aggregated, and geographic electrical network data within the current scope, without displaying or depending on personal data. |
+
+</details>
 
 
 <br>
@@ -184,19 +193,42 @@ HiATHOS was designed with an architecture that supports future evolution, includ
 | [ATS-4: Auditing and logging](docs/Auditing%20and%20logging.md) | Highest | As an administrator of Tecsys’ energy analytics system, I want the system to record logs of critical operations performed on the platform, so that it is possible to trace activities, identify failures, and ensure auditability of the actions carried out by users. | 3 | 1 |
 | [ATS-5: Data collection and processing](docs/Data%20collection%20and%20processing.md) | Lowest | As a user of Tecsys’ energy analytics system, I want the system to automatically collect public data from ANEEL regarding energy quality and losses, so that this information can be stored and used later. | 8 | 1 |
 
+### Definition of Done (DoD)
+For a User Story to be considered **complete**, the following criteria must be met:
+- The code has been written, locally tested, and is clean (following team standards).
+- Technical documentation has been updated by the developers.
+- The functionality has been integrated into the branch: **develop**.
+- All **automated tests** have been created and successfully executed.
+- The **User Story acceptance criteria** have been fulfilled.
+- The interface complies with **usability principles**, providing clear and consistent navigation for the end user.
+- The task complies with **LGPD (data protection) principles**.
+- The functionality has been **tested and approved by the Product Owner (PO)**.
+
+### Definition of Ready (DoR)
+For a User Story to be ready to start in a sprint, the following criteria must be met:
+- Mandatory items already defined
+- It has a clear **title, description, and objective**.
+- **Acceptance criteria and business rules** are defined.
+- **Priority** has been established.
+- **Required data or system access** is available, or an alternative plan has been defined.
+- The **effort** has been estimated by the team.
+- **Supporting artifacts** have been provided (e.g., wireframes, mockups, diagrams).
+
 </details>
 
 <details>
   <summary><b>Sprint 2</b></summary>
 
 ### **Sprint 2: Execution and Planning**
-</details>
 
-<details>
-  <summary><b>Sprint 3</b></summary>
+* **Estimated Team Capacity:** 16 Story Points
+* **Sprint Goal:** Deliver user stories `ATS-6: Performance Ranking` and `ATS-13: Heatmap` (16 story points total).
+* **Sprint Forecast (Stretch goals — non-committed items):** No additional stretch goals are planned for this sprint.
 
-### **Sprint 3: Execution and Planning**
-</details>
+| Id | Prioridade | User Story | Estimativa | Sprint |
+| -- | ---------- | ---------- | ---------- | ------ |
+| [ATS-6: Performance ranking](https://athos-software.atlassian.net/browse/ATS-6) | Medium | As a user of Tecsys’ energy analytics system, I want to view an analytical table containing operational indicators of the electrical network and market estimates (TAM and SAM), so that it is possible to identify regions with higher operational risk and greater revenue recovery potential. | 8 | 2 |
+| [ATS-13: Heatmap](https://athos-software.atlassian.net/browse/ATS-13) | Medium | As a user of Tecsys’ energy analytics system, I want to view a heatmap displaying electrical network quality and loss indicators, so that I can identify regions with higher operational risk and greater financial impact. | 8 | 2 |
 
 ### Definition of Done (DoD)
 For a User Story to be considered **complete**, the following criteria must be met:
@@ -218,6 +250,45 @@ For a User Story to be ready to start in a sprint, the following criteria must b
 - **Required data or system access** is available, or an alternative plan has been defined.
 - The **effort** has been estimated by the team.
 - **Supporting artifacts** have been provided (e.g., wireframes, mockups, diagrams).
+
+</details>
+
+<details>
+  <summary><b>Sprint 3</b></summary>
+
+### **Sprint 3: Execution and Planning**
+
+* **Estimated Team Capacity:** 16 Story Points
+* **Sprint Goal:** Deliver user stories `ATS-14: Business Report (ROI)` and `ATS-15: Forecasting Agent` (16 story points total).
+* **Sprint Forecast (Stretch goals — non-committed items):** This sprint is focused on planned delivery only, with no additional stretch goals.
+
+| Id | Prioridade | User Story | Estimativa | Sprint |
+| -- | ---------- | ---------- | ---------- | ------ |
+| [ATS-14: Business report (ROI)](https://athos-software.atlassian.net/browse/ATS-14) | Lowest | As a user of Tecsys’ energy analytics system, I want to view analytical reports on the economic impact associated with energy losses, so that I can identify regions with greater revenue recovery potential. | 8 | 3 |
+| [ATS-15: Forecasting agent](https://athos-software.atlassian.net/browse/ATS-15) | Lowest | As an analyst of Tecsys’ energy analytics system, I want to use an AI-based forecasting agent to estimate future trends in electrical network indicators, so that I can anticipate regions with a higher risk of outages or energy losses. | 8 | 3 |
+
+### Definition of Done (DoD)
+For a User Story to be considered **complete**, the following criteria must be met:
+- The code has been written, locally tested, and is clean (following team standards).
+- Technical documentation has been updated by the developers.
+- The functionality has been integrated into the branch: **develop**.
+- All **automated tests** have been created and successfully executed.
+- The **User Story acceptance criteria** have been fulfilled.
+- The interface complies with **usability principles**, providing clear and consistent navigation for the end user.
+- The task complies with **LGPD (data protection) principles**.
+- The functionality has been **tested and approved by the Product Owner (PO)**.
+
+### Definition of Ready (DoR)
+For a User Story to be ready to start in a sprint, the following criteria must be met:
+- Mandatory items already defined
+- It has a clear **title, description, and objective**.
+- **Acceptance criteria and business rules** are defined.
+- **Priority** has been established.
+- **Required data or system access** is available, or an alternative plan has been defined.
+- The **effort** has been estimated by the team.
+- **Supporting artifacts** have been provided (e.g., wireframes, mockups, diagrams).
+
+</details>
 
 <br>
 

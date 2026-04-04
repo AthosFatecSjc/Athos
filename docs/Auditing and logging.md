@@ -294,5 +294,5 @@ Example of a log structure stored in the database:
 
 | Item | Link |
 |---|---|
-| Prototype | Done |
-| Epic (Jira) | [ATS-4](https://athos-software.atlassian.net/browse/ATS-4) |
+| Prototype | [Figma](https://www.figma.com/design/lH1iaR2cBfTC9PUxxo93dX/Sem-t%C3%ADtulo?node-id=0-1&m=dev) |
+| Epic (Jira) | [ATS-4: Auditing and logging](https://athos-software.atlassian.net/browse/ATS-4) |

@@ -225,8 +225,8 @@ Whenever possible, each collection run must record:
 
 | Item | Link |
 |---|---|
-| Prototype | Done |
-| Epic (Jira) | [ATS-5](https://athos-software.atlassian.net/browse/ATS-5) |
+| Prototype | [Figma](https://www.figma.com/design/lH1iaR2cBfTC9PUxxo93dX/Sem-t%C3%ADtulo?node-id=0-1&m=dev) |
+| Epic (Jira) | [ATS-5: Data collection and processing](https://athos-software.atlassian.net/browse/ATS-5) |
 
 Se quiser, eu também posso converter os 3 textos em um padrão único de GitHub, por exemplo:
 - `User Story`
