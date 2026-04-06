@@ -1,0 +1,8 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/AthosFatecSjc/frontend.git
+	branch = release
+[submodule "backend"]
+	path = backend
+	url = https://github.com/AthosFatecSjc/backend.git
+	branch = release
