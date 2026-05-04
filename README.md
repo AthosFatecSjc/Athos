@@ -24,7 +24,7 @@
 <h1 align="center" id="busts_in_silhouette-members">Team</h1>
 
 <div align="center">
-  <img width="1100" alt="Team members" src="image/team.png" />
+  <img width="1100" alt="Team members" src="image/team2.png" />
 </div>
 
 <br/>
