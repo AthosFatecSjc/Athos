@@ -18,6 +18,8 @@
   <a href="#gear-branching-and-commit-standard-strategies"> Branching and Commit Standard Strategies </a> • 
   <a href="#gear-quality-gate"> Quality Gate </a> •
   <a href="#gear-documentation"> Documentation </a> •
+  <a href="#gear-documentation"> Installation guide </a> •
+  <a href="#gear-documentation"> User guide </a> •
 
 </p>
 
@@ -466,15 +468,10 @@ Example:
 <br>
 
 <h1 id="gear-documentation"> 📚 Documentation </h1>
-   
-<div align="center">
-  <p>If you have any questions or would like to run the project, please access the full technical documentation at:</p>
-  <a href="./docs/">
-    <img src="https://img.shields.io/badge/Documentação-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub documentation">
-  </a>
-</div>
 
-<hr>
+- [Installation Guide](https://github.com/AthosFatecSjc/Athos/blob/release/docs/Installation%20guide.md)
+- [User Guide](https://github.com/AthosFatecSjc/Athos/blob/release/docs/User%20guide.md)
+
 
 <p align="center">
 © 2026 — HiATHOS - ATHOS / Tecsys</p>
