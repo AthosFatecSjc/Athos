@@ -124,8 +124,7 @@ HiATHOS was designed with an architecture that supports future evolution, includ
 | RF06 | Automatic and Manual ANEEL Data Collection | The system must perform periodic automatic collection of public ANEEL data and also allow manual execution by authorized administrators in order to obtain regulatory data for future analysis, indicators, and rankings. |
 | RF07 | Validation, Processing and Storage of Collected Data | The system must validate the structure and format of collected files, process and normalize accepted data, reject or flag data incompatible with the expected model, store processed records with source and batch traceability, and prevent improper duplication during reprocessing or recurring imports. |
 | RF08 | Historical Preservation and Data Consistency | The system must preserve the history of valid data, term versions, acceptance records, and relevant events, ensuring consistency between the active database, logs, anonymization records, and backup restoration processes. |
-| RF09 | Analytical Visualization and Operational Ranking | The system must allow users to view a ranked analytical table based on previously collected and stored data from ANEEL public datasets, initially displaying DEC, DEC limit, FEC, and FEC limit indicators. It must support filtering by year, distributor, state, electrical group, and substation, as well as sorting by indicators and identifying regions near or above regulatory limits. The system must also support visual or logical classification of operational units based on the comparison between measured indicators and regulatory thresholds, and preserve structural compatibility for future inclusion of complementary indicators such as technical and non-technical losses without compromising the main continuity-focused visualization. |
-| RF10 | Geographical Visualization of Operational Indicators | The system must allow geographical visualization of electrical network operational indicators based on previously collected and stored data from ANEEL public datasets and the available geographic base, initially presenting DEC and FEC indicators in heatmap format. It must support filtering by year, month when available, distributor, state, electrical group, and substation, as well as selection of the indicator shown on the map. The system must preserve structural compatibility for future inclusion of technical and non-technical losses in the geographic view, as well as future evolution toward network-segment and electrical-circuit granularity. |
+| RF09 | Geographical Visualization of Operational Indicators | The system must allow geographical visualization of electrical network operational indicators based on previously collected and stored data from ANEEL public datasets and the available geographic base, initially presenting DEC and FEC indicators in heatmap format. It must support filtering by year, month when available, distributor, state, electrical group, and substation, as well as selection of the indicator shown on the map. The system must preserve structural compatibility for future inclusion of technical and non-technical losses in the geographic view, as well as future evolution toward network-segment and electrical-circuit granularity. |
 
 </details>
 
@@ -147,11 +146,9 @@ HiATHOS was designed with an architecture that supports future evolution, includ
 | RNF09 | Basic Availability and Scalability | The system must support the expected initial volume of users, logs, and periodic data collection jobs, while allowing future growth without compromising essential MVP functionality. |
 | RNF10 | Minimum Usability | The interfaces for registration, user management, log consultation, and administrative operations must be clear, objective, and appropriate for the expected use within the initial project scope. |
 | RNF11 | Minimum Performance for Analytical Queries | The analytical visualization functionality must respond adequately to the initial project data volume, supporting filtering and sorting without compromising the basic MVP user experience. |
-| RNF12 | Clarity of Ordering and Interpretation | The ranking interface must clearly indicate the applied sorting criteria and present indicators in a way that is understandable to users, avoiding ambiguity in analytical interpretation. |
-| RNF13 | Separation Between Analytical Data and Personal Data | The ranking functionality must operate exclusively on public and aggregated ANEEL data within the current scope, without displaying or depending on platform users' personal data. |
-| RNF14 | Minimum Performance for Geographical Visualization | The heatmap functionality must respond adequately to the initial data volume and filter set expected for the MVP. |
-| RNF15 | Visual Clarity and Interpretability | The heatmap interface must provide a clear legend, an understandable visual scale, and clear distinction between different levels of criticality. |
-| RNF16 | Separation Between Geographic Analytical Data and Personal Data | The heatmap functionality must operate exclusively on public, aggregated, and geographic electrical network data within the current scope, without displaying or depending on personal data. |
+| RNF12 | Minimum Performance for Geographical Visualization | The heatmap functionality must respond adequately to the initial data volume and filter set expected for the MVP. |
+| RNF13 | Visual Clarity and Interpretability | The heatmap interface must provide a clear legend, an understandable visual scale, and clear distinction between different levels of criticality. |
+| RNF14 | Separation Between Geographic Analytical Data and Personal Data | The heatmap functionality must operate exclusively on public, aggregated, and geographic electrical network data within the current scope, without displaying or depending on personal data. |
 
 </details>
 
@@ -164,10 +161,8 @@ HiATHOS was designed with an architecture that supports future evolution, includ
 | -- | ---------- | ---------- | ---------- | ------ |
 | [ATS-7: User management](docs/User%20management.md) | Highest | As a user of Tecsys’ energy analytics system, I want to be able to register by providing basic platform access information, so that I can request access to the system and use its analytical features after administrative approval. | 5 | 1 |
 | [ATS-4: Auditing and logging](docs/Auditing%20and%20logging.md) | Highest | As an administrator of Tecsys’ energy analytics system, I want the system to record logs of critical operations performed on the platform, so that it is possible to trace activities, identify failures, and ensure auditability of the actions carried out by users. | 3 | 1 |
-| [ATS-5: Data collection and processing](docs/Data%20collection%20and%20processing.md) | Highest | As a user of Tecsys’ energy analytics system, I want the system to automatically collect public data from ANEEL regarding energy quality and losses, so that this information can be stored and used later. | 8 | 1 |
-| [ATS-6: Performance ranking](https://athos-software.atlassian.net/browse/ATS-6) | Medium | As a user of Tecsys’ energy analytics system, I want to view an analytical table containing operational indicators of the electrical network and market estimates (TAM and SAM), so that it is possible to identify regions with higher operational risk and greater revenue recovery potential. | 8 | 2 |
+| [ATS-5: Data collection and processing](docs/Data%20collection%20and%20processing.md) | Highest | As a user of Tecsys’ energy analytics system, I want the system to automatically collect public data from ANEEL regarding energy quality and losses, so that this information can be stored and used later. | 8 | 2 |
 | [ATS-13: Heatmap](https://athos-software.atlassian.net/browse/ATS-13) | Medium | As a user of Tecsys’ energy analytics system, I want to view a heatmap displaying electrical network quality and loss indicators, so that I can identify regions with higher operational risk and greater financial impact. | 8 | 2 |
-| [ATS-14: Business report (ROI)](https://athos-software.atlassian.net/browse/ATS-14) | Lowest | As a user of Tecsys’ energy analytics system, I want to view analytical reports on the economic impact associated with energy losses, so that I can identify regions with greater revenue recovery potential. | 8 | 3 |
 | [ATS-15: Forecasting agent](https://athos-software.atlassian.net/browse/ATS-15) | Lowest | As an analyst of Tecsys’ energy analytics system, I want to use an AI-based forecasting agent to estimate future trends in electrical network indicators, so that I can anticipate regions with a higher risk of outages or energy losses. | 8 | 3 |
 
 
@@ -188,7 +183,6 @@ HiATHOS was designed with an architecture that supports future evolution, includ
 | -- | ---------- | ---------- | ---------- | ------ |
 | [ATS-7: User management](docs/User%20management.md) | Highest | As a user of Tecsys’ energy analytics system, I want to be able to register by providing basic platform access information, so that I can request access to the system and use its analytical features after administrative approval. | 5 | 1 |
 | [ATS-4: Auditing and logging](docs/Auditing%20and%20logging.md) | Highest | As an administrator of Tecsys’ energy analytics system, I want the system to record logs of critical operations performed on the platform, so that it is possible to trace activities, identify failures, and ensure auditability of the actions carried out by users. | 3 | 1 |
-| [ATS-5: Data collection and processing](docs/Data%20collection%20and%20processing.md) | Lowest | As a user of Tecsys’ energy analytics system, I want the system to automatically collect public data from ANEEL regarding energy quality and losses, so that this information can be stored and used later. | 8 | 1 |
 
 ### Definition of Done (DoD)
 For a User Story to be considered **complete**, the following criteria must be met:
@@ -224,7 +218,7 @@ For a User Story to be ready to start in a sprint, the following criteria must b
 
 | Id | Prioridade | User Story | Estimativa | Sprint |
 | -- | ---------- | ---------- | ---------- | ------ |
-| [ATS-6: Performance ranking](https://athos-software.atlassian.net/browse/ATS-6) | Medium | As a user of Tecsys’ energy analytics system, I want to view an analytical table containing operational indicators of the electrical network and market estimates (TAM and SAM), so that it is possible to identify regions with higher operational risk and greater revenue recovery potential. | 8 | 2 |
+| [ATS-5: Data collection and processing](docs/Data%20collection%20and%20processing.md) | Highest | As a user of Tecsys’ energy analytics system, I want the system to automatically collect public data from ANEEL regarding energy quality and losses, so that this information can be stored and used later. | 8 | 2 |
 | [ATS-13: Heatmap](https://athos-software.atlassian.net/browse/ATS-13) | Medium | As a user of Tecsys’ energy analytics system, I want to view a heatmap displaying electrical network quality and loss indicators, so that I can identify regions with higher operational risk and greater financial impact. | 8 | 2 |
 
 ### Definition of Done (DoD)
@@ -261,7 +255,6 @@ For a User Story to be ready to start in a sprint, the following criteria must b
 
 | Id | Prioridade | User Story | Estimativa | Sprint |
 | -- | ---------- | ---------- | ---------- | ------ |
-| [ATS-14: Business report (ROI)](https://athos-software.atlassian.net/browse/ATS-14) | Lowest | As a user of Tecsys’ energy analytics system, I want to view analytical reports on the economic impact associated with energy losses, so that I can identify regions with greater revenue recovery potential. | 8 | 3 |
 | [ATS-15: Forecasting agent](https://athos-software.atlassian.net/browse/ATS-15) | Lowest | As an analyst of Tecsys’ energy analytics system, I want to use an AI-based forecasting agent to estimate future trends in electrical network indicators, so that I can anticipate regions with a higher risk of outages or energy losses. | 8 | 3 |
 
 ### Definition of Done (DoD)
@@ -319,8 +312,8 @@ For a User Story to be ready to start in a sprint, the following criteria must b
 
 - [x] March 02 to March 06 - Kick-off
 - [x] March 16 to April 05 - Sprint 1
-- [ ] April 06 to April 10 - Sprint Review / Planning
-- [ ] April 13 to May 03 - Sprint 2
+- [x] April 06 to April 10 - Sprint Review / Planning
+- [x] April 13 to May 03 - Sprint 2
 - [ ] May 04 to May 08 - Sprint Review / Planning
 - [ ] May 11 to May 31 - Sprint 3
 - [ ] June 01 to June 05 - Sprint Review
