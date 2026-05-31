@@ -300,7 +300,8 @@ For a User Story to be ready to start in a sprint, the following criteria must b
 </details>
 <details>
   <summary><strong>Sprint 3</strong></summary>
-  <img width="1605" height="503" alt="Sprint 3 - Burndown graph" src="#" />
+  <img width="1609" height="573" alt="image" src="https://github.com/user-attachments/assets/1b8331ae-a328-4116-85b1-bb99746f2a75" />
+
 
 </details>
 
