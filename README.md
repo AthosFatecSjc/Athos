@@ -472,7 +472,7 @@ Example:
 - [User Guide](https://github.com/AthosFatecSjc/Athos/blob/release/docs/User%20guide.md)
 - [Platform Videos](https://github.com/AthosFatecSjc/Athos/tree/release/docs/v%C3%ADdeos)
 - [Database Architecture Diagram](https://github.com/AthosFatecSjc/Athos/blob/release/docs/Banco_de_Dados.drawio.png)
-- [Notebook Colab com Treinamento da AI ](https://colab.research.google.com/drive/1Y-utwItqRiml0zo5tn8qeWndklKHbBid?usp=sharing)
+- [Notebook Colab AI ](https://colab.research.google.com/drive/1Y-utwItqRiml0zo5tn8qeWndklKHbBid?usp=sharing)
 
 <p align="center">
 © 2026 — HiATHOS - ATHOS / Tecsys</p>
