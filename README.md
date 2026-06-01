@@ -21,8 +21,11 @@
   <a href="#gear-documentation"> Vídeos </a> •
   <a href="#gear-documentation"> Installation guide </a> •
   <a href="#gear-documentation"> User guide </a> •
-   <a href="#gear-documentation"> Database Architecture Diagram </a> •
-
+  <a href="#gear-documentation"> Database Architecture Diagram </a> •
+  <a href="https://colab.research.google.com/drive/1Y-utwItqRiml0zo5tn8qeWndklKHbBid?usp=sharing">
+  Google Colab Notebook AI
+</a> 
+  
 </p>
 
 <h1 align="center" id="busts_in_silhouette-members">Team</h1>
