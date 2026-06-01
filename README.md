@@ -314,9 +314,9 @@ For a User Story to be ready to start in a sprint, the following criteria must b
 - [x] March 16 to April 05 - Sprint 1
 - [x] April 06 to April 10 - Sprint Review / Planning
 - [x] April 13 to May 03 - Sprint 2
-- [ ] May 04 to May 08 - Sprint Review / Planning
-- [ ] May 11 to May 31 - Sprint 3
-- [ ] June 01 to June 05 - Sprint Review
+- [x] May 04 to May 08 - Sprint Review / Planning
+- [x] May 11 to May 31 - Sprint 3
+- [x] June 01 to June 05 - Sprint Review
 - [ ] June 11 - Project Fair and Final API Presentation
 
 <br>
