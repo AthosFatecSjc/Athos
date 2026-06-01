@@ -18,6 +18,7 @@
   <a href="#gear-branching-and-commit-standard-strategies"> Branching and Commit Standard Strategies </a> • 
   <a href="#gear-quality-gate"> Quality Gate </a> •
   <a href="#gear-documentation"> Documentation </a> •
+  <a href="#gear-documentation"> Vídeos </a> •
   <a href="#gear-documentation"> Installation guide </a> •
   <a href="#gear-documentation"> User guide </a> •
 
@@ -468,6 +469,7 @@ Example:
 
 - [Installation Guide](https://github.com/AthosFatecSjc/Athos/blob/release/docs/Installation%20guide.md)
 - [User Guide](https://github.com/AthosFatecSjc/Athos/blob/release/docs/User%20guide.md)
+- [User Guide](https://github.com/AthosFatecSjc/Athos/tree/release/docs/v%C3%ADdeos)
 
 
 <p align="center">
