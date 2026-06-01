@@ -469,7 +469,7 @@ Example:
 
 - [Installation Guide](https://github.com/AthosFatecSjc/Athos/blob/release/docs/Installation%20guide.md)
 - [User Guide](https://github.com/AthosFatecSjc/Athos/blob/release/docs/User%20guide.md)
-- [User Guide](https://github.com/AthosFatecSjc/Athos/tree/release/docs/v%C3%ADdeos)
+- [Vídeos da Plataforma](https://github.com/AthosFatecSjc/Athos/tree/release/docs/v%C3%ADdeos)
 
 
 <p align="center">
