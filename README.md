@@ -21,7 +21,7 @@
   <a href="#gear-documentation"> Vídeos </a> •
   <a href="#gear-documentation"> Installation guide </a> •
   <a href="#gear-documentation"> User guide </a> •
-   <a href="#gear-documentation"> Arquitetura do Banco de Dados </a> •
+   <a href="#gear-documentation"> Database Architecture Diagram </a> •
 
 </p>
 
@@ -471,7 +471,7 @@ Example:
 - [Installation Guide](https://github.com/AthosFatecSjc/Athos/blob/release/docs/Installation%20guide.md)
 - [User Guide](https://github.com/AthosFatecSjc/Athos/blob/release/docs/User%20guide.md)
 - [Vídeos da Plataforma](https://github.com/AthosFatecSjc/Athos/tree/release/docs/v%C3%ADdeos)
-- [Arquitetura do Banco de Dados](https://github.com/AthosFatecSjc/Athos/blob/release/docs/Banco_de_Dados.drawio.png)
+- [Database Architecture Diagram](https://github.com/AthosFatecSjc/Athos/blob/release/docs/Banco_de_Dados.drawio.png)
 
 
 <p align="center">
