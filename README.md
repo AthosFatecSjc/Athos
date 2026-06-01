@@ -470,7 +470,7 @@ Example:
 
 - [Installation Guide](https://github.com/AthosFatecSjc/Athos/blob/release/docs/Installation%20guide.md)
 - [User Guide](https://github.com/AthosFatecSjc/Athos/blob/release/docs/User%20guide.md)
-- [Vídeos da Plataforma](https://github.com/AthosFatecSjc/Athos/tree/release/docs/v%C3%ADdeos)
+- [Platform Videos](https://github.com/AthosFatecSjc/Athos/tree/release/docs/v%C3%ADdeos)
 - [Database Architecture Diagram](https://github.com/AthosFatecSjc/Athos/blob/release/docs/Banco_de_Dados.drawio.png)
 
 
