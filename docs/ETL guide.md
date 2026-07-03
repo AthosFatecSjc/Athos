@@ -15,10 +15,10 @@ Before running the ETL, complete the following setup steps.
 
 ## 1. Configure Distributor CNPJ
 
-Make sure the `.env` file contains the CNPJ of the target distributor in:
+Make sure the `application.properties` file contains the CNPJ of the target distributor in:
 
-```env id="l1jv88"
-ETL_CNPJ=<DISTRIBUTOR_CNPJ>
+```
+etl_cnpj=<DISTRIBUTOR_CNPJ>
 ```
 
 ---
